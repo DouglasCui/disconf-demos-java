@@ -26,6 +26,7 @@ public class SimpleDemoServiceUpdateCallback implements IDisconfUpdate {
 
     public void reload() throws Exception {
         simpleDemoService.changeConfig();
+        
     }
 
 }
